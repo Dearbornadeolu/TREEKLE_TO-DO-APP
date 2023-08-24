@@ -96,3 +96,29 @@ section:hover {
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Add a glow effect on hover */
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #e74c3c;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+    padding-right: 10px;
+    background: linear-gradient(to right, #3498db, #e74c3c); /* Gradient background */
+    -webkit-background-clip: text; /* Clip text to background */
+    color: transparent; /* Make text transparent */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
