@@ -4,7 +4,7 @@ const tray = document.getElementById("tray")
 const add = document.getElementById("add")
 const listItemsout = document.querySelector("#listItemsout")
 
-// tray.style.display = "none"
+tray.style.display = "none"
 
 
 
