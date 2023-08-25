@@ -4,30 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .completed {
-            text-decoration: line-through;
-            color: red;
-        }
-    </style>
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+
+    <div class="header">
+        <div class="dot"></div>
+        <h1>Treekle</h1>
+    </div>
+
     <section>
         <h1>TODO LIST</h1>
-        <button id="new_item">ADD NEW TO DO LIST</button>
+        <button id="new_item">ADD NEW TO DO</button>
         <div id="tray">
             <input type="text" id="newText">
             <button id="add">ADD</button>
         </div>
         <ul id="listItemsout">
-            <li>
-                <span>Item 1</span>
-
-            </li>
+            <!-- List items will be added here dynamically -->
         </ul>
     </section>
+
     <script src="comp/ToDo.js"></script>
     <script src="comp/script.js"></script>
 </body>
