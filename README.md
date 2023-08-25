@@ -19,3 +19,4 @@ CSS: Styling for the application.
 JavaScript: Interactivity and functionality of the application.
 # Contributing
 Adeyeni Dearborn
+Onibokun Oluwapelumi
